@@ -1,0 +1,26 @@
+$primaryBtn: rgb(56, 138, 70);
+$textcolor: green;
+
+body{
+    height:500px;
+    width:500px;
+}
+
+header{
+    background:forestgreen;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: $primaryBtn;
+    font-size: 50px;
+}
+
+.contact button{
+    background: fuchsia;
+    font-size: 50px;
+}

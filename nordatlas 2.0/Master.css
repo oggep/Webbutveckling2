@@ -1,0 +1,33 @@
+#header {
+  height: 360px;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+#meny {
+  height: 100px;
+  width: 100%;
+  background-color: royalblue;
+}
+
+#bild1 {
+  height: 360px;
+  width: 33.33%;
+  background-color: forestgreen;
+  float: left;
+}
+
+#bild2 {
+  height: 360px;
+  width: 33.33%;
+  background-color: green;
+  float: left;
+}
+
+#bild3 {
+  height: 360px;
+  width: 33.33%;
+  background-color: forestgreen;
+  float: left;
+}
+/*# sourceMappingURL=Master.css.map */
