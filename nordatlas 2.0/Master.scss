@@ -1,28 +1,33 @@
-#header{
+@import "./_Function.scss";
+@import "./_Variables.scss";
+
+#Header{
+    position: relative;
     height:360px;
     width:100%;
-    background-color: blueviolet;
+    background-color: lightcoral;
+    font-size: 50px;
+    text-align: center;
 }
-#meny{
+
+#Meny{
+    position: relative;
     height: 100px;
     width: 100%;
-    background-color: royalblue;
+    background-color:royalblue;
 }
 #bild1{
     height:360px;
-    width:33.33%;
-    background-color: forestgreen;
+    width: 33.33%;
     float: left;
 }
 #bild2{
     height:360px;
-    width:33.33%;
-    background-color: green;
+    width: 33.33%;
     float: left;
 }
 #bild3{
     height:360px;
-    width:33.33%;
-    background-color: forestgreen;
+    width: 33.33%;
     float: left;
 }
