@@ -9,16 +9,7 @@ body{
 }
 
 .Header{
-    width: 100%;
-    height: 150px;
-    background: $bluecolor;
-    h1{
-        color: $whitecolor;
-        padding-top: 10px;
-        font-size: 100px;
-        text-align: center;
-        font-family: 'Noto Sans', sans-serif;
-    }
+   @include header();
 }
 
 .Meny{
@@ -27,12 +18,23 @@ body{
     width: 100%;
     background-color:royalblue;
 }
-.bild1{
-    @include ThreePictures;
+
+.Menysamling {
+    @include Samling();
+  }
+  
+  .Meny {
+    @include Menyn();
+    h2{
+        @include Menytext();
+    }
+  }
+a{
+    text-decoration: none;
+    color: white;
 }
-.bild2{
-    @include ThreePictures;
-}
-.bild3{
-    @include ThreePictures;
-}
+.Bilder{
+    @include Samling();
+    @include Bilder();
+    @include ThreePictures(); 
+} 

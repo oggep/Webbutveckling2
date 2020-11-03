@@ -1,0 +1,4 @@
+@import "./Functions.scss";
+.Bilder{
+    @include Bilder();
+}

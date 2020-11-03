@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAA;ECAJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;EACvB,KAAK,EAAE,KAAK;CDDd",
+    "sources": [
+        "Master.scss",
+        "Functions.scss"
+    ],
+    "names": [],
+    "file": "Master.css"
+}

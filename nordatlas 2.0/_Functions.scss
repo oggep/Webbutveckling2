@@ -1,6 +1,42 @@
 @mixin ThreePictures() {
-    height:360px;
-    width: 30%;
-    float: left;
-    padding: 34px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+@mixin header(){
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: $bluecolor;
+    h1{
+        color: $whitecolor;
+        padding-top: 10px;
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+    }
+}
+@mixin Menyn() {
+    flex-grow: 1;
+    height: 100px;
+    width: 33%;
+    text-align: center;
+}
+@mixin Samling() {
+    display: flex;
+    flex-direction: row;
+    }
+@mixin Menytext() {
+    padding: 25px;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    color: $whitecolor;
+}
+@mixin Bilder(){
+    display: flex;
+    position: relative;
+    flex-direction: row;
 }
