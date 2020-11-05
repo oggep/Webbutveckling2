@@ -34,7 +34,5 @@ a{
     color: white;
 }
 .Bilder{
-    @include Samling();
-    @include Bilder();
     @include ThreePictures(); 
 } 
