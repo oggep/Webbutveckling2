@@ -5,7 +5,7 @@
     border: 0px;
 }
 body{
-    background-color: lightskyblue;
+    background-color: whitesmoke;
 }
 
 .Header{
@@ -13,10 +13,7 @@ body{
 }
 
 .Meny{
-    position: relative;
-    height: 100px;
-    width: 100%;
-    background-color:royalblue;
+    @include Meny();
 }
 
 .Menysamling {
@@ -29,10 +26,16 @@ body{
         @include Menytext();
     }
   }
-a{
-    text-decoration: none;
-    color: white;
-}
+
 .Bilder{
     @include ThreePictures(); 
 } 
+.Brödtext{
+    @include Brödtextruta();
+}
+.Video{
+    @include Video();
+}
+.Footer{
+    @include Footer();
+}
